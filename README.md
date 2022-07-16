@@ -1,3 +1,11 @@
+# Introdução ao Angular 
+
+Projeto realizado no Bootcamp Santander 2022 [Digital Innovation One](https://digitalinnovation.one/).
+
+- Criada uma aplicação de pesquisa de cursos para exemplificação dos conceitos sobre Angular;
+- Nesta aplicação é consumida uma API feita em node.js para buscar os cursos em questão;
+- O arquivo da API encontrasse na pasta assets arquivo serve.js (necessário executar para exibir os cursos no Front-end).
+
 # CourseManager
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.4.

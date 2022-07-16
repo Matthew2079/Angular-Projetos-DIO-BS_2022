@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Especificando o caminho do bootstrap e importando */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+/* Importando o pacote que contém estilos com estrelas*/
+@import '~font-awesome/css/font-awesome.min.css';
+
+

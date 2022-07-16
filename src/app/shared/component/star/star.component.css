@@ -1,0 +1,10 @@
+
+/* Classe que esconde parte do componente */
+.crop {
+    overflow: hidden;
+}
+
+/* Classe que altera a cor da estrela*/ 
+.color {
+    color: gold;
+}
