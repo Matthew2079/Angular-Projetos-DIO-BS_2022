@@ -1,0 +1,62 @@
+<div class="card w-100 my-5">
+
+    <div class="card-body">
+        <h1 class="card-title text-center">Formulário de Usuários</h1>
+
+        <!-- [formGroup]="" faz a ligação para o mapeamento e para cada campo de entrada especifica o nome-->
+        <form [formGroup]="userForm">
+             <!-- Campo Nome / Sobrenome -->
+            <div class="row my-4">
+
+                <div class="col-6">
+                    <!-- Campo Nome -->
+                    <div class="form-floating">
+                        <input type="text" class="form-control" formControlName="nome" id="nome" placeholder="Digite seu nome....">
+                        <label for="nome">Nome</label>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <!-- Campo Sobrenome -->
+                    <div class="form-floating">
+                        <input type="text" class="form-control" formControlName="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome....">
+                        <label for="sobrenome">Sobrenome</label>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Campo Idade / Profissao -->
+            <div class="row my-4">
+
+                <div class="col-6">
+                    <!-- Campo Idade -->
+                    <div class="form-floating">
+                        <input type="text" class="form-control" formControlName="idade" id="idade" placeholder="Digite sua idade....">
+                        <label for="idade">Idade</label>
+                    </div>
+                </div>
+
+
+                <div class="col-6">
+                    <!-- Campo Profissão -->
+                    <div class="form-floating">
+                        <input type="text" class="form-control" formControlName="profissao" id="profissao" placeholder="Digite sua profissao..">
+                        <label for="profissao">Profissão</label>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Botões de operações -->
+            <div class="row my-4">
+                <div class="form-group col-12 mt-4">
+                    <button type="button" class="btn btn-outline-danger float-start">Cancelar</button>
+                    <button type="button" class="btn btn-outline-success float-end" (click)="actionButton()">Enviar</button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+    
+</div>
