@@ -1,3 +1,19 @@
+# Aprendendo sobre o Angular
+
+Projeto realizado no Bootcamp Santander 2022 [Digital Innovation One](https://digitalinnovation.one/).
+
+- Aplicação criada para validar os tópicos das aulas: 
+
+  4 - Instalando e Preparando o Ambiente Angular.
+
+  5 - Explorando Diretivas com Angular.
+
+  6 - Implementando Serviços e Injeção de Dependências com Angular.
+
+- Consumida a [API Ricky and Morty](https://rickandmortyapi.com/documentation/#rest) a qual é feita a busca dos personagens e estes exibidos na aplicação.
+
+
+
 # ProjetoAngularLive
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.4.
